@@ -7,22 +7,84 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+          integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
     <header>
         <div class="row">
-            <nav>
-                <a href="#" class="logo">Verti</a>
-            </nav>
-            <div class="col-xs-12">
-                <h1>Hi. This is Verti.</h1>
-                <p>It's a free responsive site template by HTML5 UP</p>
+            <div class="navi">
+                <div class="nav">
+                    <a href="#" class="logo">Verti</a>
+                    <h4>by HTML5 UP</h4>
+                </div>
+                <div class="menu">
+                    <input type="checkbox" name="menu_btn" id="menu_btn" class="menu_btn">
+                    <label for="menu_btn" class="menu_burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                    <div class="menu__list">
+                        <a href="#" class="menu_link_0">Welcome</a>
+                        <a href="#" class="menu_link_0">Dropdown</a>
+                        <a href="#" class="menu_link_1">Lorem ipsum dolor</a>
+                        <a href="#" class="menu_link_1">Magna phasellus</a>
+                        <a href="#" class="menu_link_1">Phasellus consequat .</a>
+                        <a href="#" class="menu_link_2">Lorem ipsum dolor</a>
+                        <a href="#" class="menu_link_2">Phasellus consequat</a>
+                        <a href="#" class="menu_link_2">Magna phasellus</a>
+                        <a href="#" class="menu_link_2">Etiam dolore nisi</a>
+                        <a href="#" class="menu_link_1">Veroeros feugiat</a>
+                        <a href="#" class="menu_link_0">Left Sidebar</a>
+                        <a href="#" class="menu_link_0">Right Sidebar</a>
+                        <a href="#" class="menu_link_0">No Sidebar</a>
+                    </div>
+                    <div class="menu__list_md">
+                        <ul class="ul_0">
+                            <li><a href="#">Welcome</a></li>
+                            <li>
+                                <a href="#">Dropdown</a>
+                                <ul class="ul_1">
+                                    <li><a href="#">Lorem ipsum dolor</a></li>
+                                    <li><a href="#">Magna phasellus</a></li>
+                                    <li>
+                                        <a href="#">Phasellus consequat .</a>
+                                        <ul class="ul_2">
+                                            <li><a href="#">Lorem ipsum dolor</a></li>
+                                            <li><a href="#">Phasellus consequat</a></li>
+                                            <li><a href="#">Magna phasellus</a></li>
+                                            <li><a href="#">Etiam dolore nisi</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Veroeros feugiat</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Left Sidebar</a></li>
+                            <li><a href="#">Right Sidebar</a></li>
+                            <li><a href="#">No Sidebar</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="col-xs-12">
-                <a href="#">Ok let's go</a>
-                <a href="#">More info</a>
+            <div class="hero">
+                <div class="col-xs-12 col-md-7">
+                    <h1>Hi. This is Verti.</h1>
+                    <p>It's a free responsive site template by HTML5 UP</p>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <a href="#" class="btn btn__blue btn__arrow">
+                        <i class="fas fa-arrow-circle-right"></i>
+                        Ok let's go
+                    </a>
+                    <a href="#" class="btn btn__gray">
+                        <i class="fas fa-question-circle"></i>
+                        More info
+                    </a>
+                </div>
             </div>
         </div>
     </header>

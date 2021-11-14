@@ -1,18 +1,17 @@
 .container {
   margin: 0 auto;
   max-width: 1200px;
-  padding: 0 1rem;
+  padding: 0 auto;
   width: 100%;
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin: -0.5rem;
 
   [class*="col-"] {
     min-height: 1px;
-    padding: 0.5rem;
+    padding: 0;
   }
 
   @for $i from 1 through $columns {
