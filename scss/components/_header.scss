@@ -1,0 +1,29 @@
+header {
+  nav {
+    font-family: 'Oleo Script', cursive;
+    font-size: 3.5rem;
+    font-weight: 400;
+    background: #FC4887;
+    width: 9rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+      color: white;
+      text-decoration: none;
+      letter-spacing: 0.1875rem;
+    }
+  }
+
+  h1 {
+    font-size: 3.125rem;
+    font-weight: 800;
+  }
+
+  p {
+    font-size: 3rem;
+    font-weight: 300;
+  }
+}
