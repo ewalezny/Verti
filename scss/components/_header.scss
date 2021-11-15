@@ -142,6 +142,9 @@ header {
                       left: 0;
                       background: white;
                       white-space: nowrap;
+                      padding: 20px 0;
+                      border-radius: 5px;
+                      border: 1px solid $color-body;
 
                       &::after {
                         content: '';
@@ -162,7 +165,7 @@ header {
                         a {
                           color: $color-text;
                           font-weight: 300;
-                          font-size: 0.75rem;
+                          font-size: 1rem;
                           background: white;
                           border-bottom: 1px solid $color-body;
                           border-radius: 0;
@@ -180,8 +183,12 @@ header {
                               display: flex;
                               flex-direction: column;
                               position: absolute;
-                              top: 70px;
-                              left: 135px;
+                              top: 75px;
+                              left: 185px;
+                              padding: 15px 0;
+                              border-radius: 5px;
+                              background: white;
+                              border: 1px solid $color-body;
 
                               li {
                                 a {
