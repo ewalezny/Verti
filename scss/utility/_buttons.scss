@@ -2,16 +2,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px 50px;
+  padding: 20px 50px;
   margin: 20px 0;
   border-radius: 5px;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
 
   @include sm {
-    font-size: 2.25rem;
+    font-size: 1.75rem;
   }
 
   @include md {
@@ -20,6 +20,10 @@
 
   i {
     margin-right: 15px;
+
+    @include md {
+      margin-right: 10px;
+    }
   }
 }
 
@@ -43,3 +47,11 @@
   }
 }
 
+.btn__small {
+  font-size: 1.25rem;
+
+  @include md {
+    width: 50%;
+    padding: 20px;
+  }
+}
